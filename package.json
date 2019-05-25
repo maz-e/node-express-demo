@@ -1,15 +1,20 @@
 {
   "name": "node-carlos",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "Node, express and mongoose lessons by Carlos!",
+  "main": "src/index.js",
   "scripts": {
+    "start": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.0"
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.11"
   }
 }
